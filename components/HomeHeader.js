@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.darkGreen,
   },
   tabStyle: {
-    ...Platform.select({ ios: { height: 50 }, android: { height: 40 } }),
+    ...Platform.select({ ios: { height: 50 }, android: { height: 60 } }),
     width: 113,
   },
   text: {

@@ -14,7 +14,7 @@ import {
 
 import AppNavigator from './navigation/AppNavigator';
 import navigationTheme from './navigation/navigationTheme';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
